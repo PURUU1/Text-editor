@@ -1,5 +1,5 @@
 const text = document.getElementById('text-area');
-
+let az;first
 const bold = document.getElementById('bold')
 
 const underline = document.getElementById('underline')
