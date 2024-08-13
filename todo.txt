@@ -1,0 +1,3 @@
+copy btn
+selected
+dynamic bars

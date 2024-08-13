@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="onload()">
+    <main>
+      <div class="box">
+        <div class="pic">
+          <h1>Text Editor</h1>
+          <div class="svg">
+            <img id="svgg" src="Hire-Android-Developer.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="text-cont">
+          <div class="tool">
+            <ul>
+              <li id="bold"><i class="ph ph-text-b"></i></li>
+              <li id="underline"><i class="ph ph-text-underline"></i></li>
+              <li id="itelic"><i class="ph ph-text-italic"></i></li>
+              <li id="clean"><i class="ph ph-broom"></i></li>
+              <li onclick="myFunction()"><i class="ph ph-clipboard"></i></li>
+            </ul>
+          </div>
+          <textarea id="text-area" rows="100%" cols="40%">
+</textarea
+          >
+        </div>
+      </div>
+      <!-- <div class="extra-cont"> -->
+        <div class="color font-sixe-cont">
+          <!-- <i class="ph ph-palette  ic1"></i> -->
+    <i class="ph ph-paint-brush ic1 icon"></i>
+          <ul>
+            <li id="white"></li>
+            <li id="red"></li>
+            <li id="blue"></li>
+            <li id="yellow"></li>
+            <li id="green"></li>
+          </ul>
+        </div>
+        <div class="font-sixe-cont sizebox">
+         <i class="ph ph-resize icon ic2"></i>
+          <button id="plus"><i class="ph ph-plus"></i></button>
+          <h4 id="perc">20%</h4>
+          <button id="minus"><i class="ph ph-minus"></i></button>
+        </div>
+        <div class="font-sixe-cont font">
+          <i class="ph ph-text-aa icon ic3"></i>
+          <button id="up"><i class="ph ph-arrow-up"></i></button>
+          <h4 id="font_name">Defult</h4>
+          <button id="down"><i class="ph ph-arrow-down"></i></button>
+        <!-- </div> -->
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
