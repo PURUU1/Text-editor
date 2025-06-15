@@ -1,17 +1,24 @@
 * {
   padding: 0px;
   margin: 0px;
+ 
 }
 
+body{
+   height: 500px;
+  width: 100vmax;
+  overflow: hidden;
+}
 main {
   padding: 50px;
-  width: 100vw;
+  
   height: 100vh;
   background-color: #3d3d3d;
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+
 }
 
 .box {
@@ -30,6 +37,9 @@ main {
   width: 50%;
   height: 100%;
   border-radius: 20px 0px 0px 20px;
+  display: flex;
+    align-content: flex-start;
+    flex-direction: column;
 }
 
 .pic h1 {
@@ -98,15 +108,15 @@ i {
   border-radius: 4px;
   padding: 0 15px;
   cursor: pointer;
-  /* height: 32px; */
+  height: 32px; 
   /* font-size: 14px; */
   transition: all 0.2s ease-in-out;
 }
 
-i:hover {
+/* i:hover {
   box-shadow: 1px 1px #3d3d3d, 2px 2px #3d3d3d, 3px 3px #3d3d3d;
   transform: translateX(-3px);
-}
+} */
 
 
 @media screen and (min-width: 450px) {}
@@ -123,6 +133,7 @@ i:hover {
   textarea {
     width: 100%;
     overflow: hidden;
+
   }
 
   .tool ul {
@@ -135,10 +146,11 @@ i:hover {
   
   float: right;
   width: 10%;
-  height: 10%;
+  height: 5%;
   border-radius: 20px;
   margin: 10px;
   background-color: #6d6d6d;
+
   
 }
 .icon{
@@ -155,13 +167,16 @@ i:hover {
 
 .color ul {
   
+  display: none;
   padding: auto;
   width: 100%;
-  height: 100%;
-  display: flex;
+  height: 50%;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-content: space-evenly;
+
+
 
 }
 
@@ -247,4 +262,30 @@ i:hover {
   h4{
     display: block;
   }
+}
+/* edit */
+.open{
+  height: 90%;
+}
+
+.open2{
+  height: 90%;
+  ul{
+    display: flex;
+  }
+  ul li{
+    margin: 0px 0px;
+    display: block;
+
+  }
+  button{
+    display: block;
+  }
+  h4{
+    display: block;
+  }
+}
+
+.tool ul{
+  flex-wrap: wrap;
 }

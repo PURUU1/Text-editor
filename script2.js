@@ -91,11 +91,11 @@ let isClassActive = false
 
 color.addEventListener('click',()=>{
   if(isClassActive == false){
-  color.classList.add('open')  
+  color.classList.add('open2')  
     isClassActive = true
   }
   else if(isClassActive == true){
-    color.classList.remove('open')
+    color.classList.remove('open2')
     isClassActive = false
   }
 })
